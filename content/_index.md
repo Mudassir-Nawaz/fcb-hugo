@@ -6,7 +6,7 @@ sitemap:
 hero_section:
     enable: true
     slides:
-        - heading: 'WELCOME TO FIRST CHOICE BUILDERS'
+        - heading: 'WELCOME TO EliteStead'
           image: 'images/house-street-view.jpg'
         - heading: 'Your Trusted Partner for House Extensions and Landscaping'
           image: 'images/house-inner-view.jpg'
@@ -16,10 +16,13 @@ hero_section:
     features:
       - icon: 'images/worker-icon.png'
         title: 'Expert Craftsmanship'
-        details: 'With years of experience, our team delivers high-quality house extensions that seamlessly integrate with your home’s architecture.'
-      - icon: 'images/bulb-icon.png'
-        title: 'Innovative Landscaping'
-        details: 'From lush gardens to functional outdoor spaces, our landscaping services are designed to enhance beauty and usability.'
+        details: 'With 9 years of experience, our team delivers high-quality house extensions that seamlessly integrate with your home’s architecture.'
+      - icon: 'images/construction-icon.png'
+        title: 'House Extensions'
+        details: 'We create well planned house extensions that add space, value, and comfort to your home while blending naturally with the existing property.'
+      # - icon: 'images/bulb-icon.png'
+      #   title: 'Innovative Landscaping'
+      #   details: 'From lush gardens to functional outdoor spaces, our landscaping services are designed to enhance beauty and usability.'
       - icon: 'images/support-icon.png'
         title: 'Customer-Centric Approach'
         details: 'We listen, collaborate, and tailor every project to match your unique needs and preferences.'
@@ -45,7 +48,7 @@ about_section:
     enable: true
     pretitle: "About Us"
     heading: "Our Story: Transforming Homes, Shaping Landscapes"
-    details: "At First Choice Builders, we believe that every home has the potential to grow and evolve, just like the families that live within it. Founded on a passion for craftsmanship and a commitment to excellence, our journey began in 2017 with a simple mission: to help homeowners create spaces that reflect their dreams, needs, and lifestyles."
+    details: "At EliteStead, we believe that every home has the potential to grow and evolve, just like the families that live within it. Founded on a passion for craftsmanship and a commitment to excellence, our journey began in 2017 with a simple mission: to help homeowners create spaces that reflect their dreams, needs, and lifestyles."
   
 why_us:
     - title: 'Personalized Service'
