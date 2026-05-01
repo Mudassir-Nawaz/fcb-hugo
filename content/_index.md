@@ -16,7 +16,7 @@ hero_section:
     features:
       - icon: 'images/worker-icon.png'
         title: 'Expert Craftsmanship'
-        details: 'With 9 years of experience, our team delivers high-quality house extensions that seamlessly integrate with your home’s architecture.'
+        details: 'With 9 years of experience, our team delivers high quality house extensions that seamlessly integrate with your home’s architecture.'
       - icon: 'images/construction-icon.png'
         title: 'House Extensions'
         details: 'We create well planned house extensions that add space, value, and comfort to your home while blending naturally with the existing property.'
@@ -24,7 +24,7 @@ hero_section:
       #   title: 'Innovative Landscaping'
       #   details: 'From lush gardens to functional outdoor spaces, our landscaping services are designed to enhance beauty and usability.'
       - icon: 'images/support-icon.png'
-        title: 'Customer-Centric Approach'
+        title: 'Customer Centric Approach'
         details: 'We listen, collaborate, and tailor every project to match your unique needs and preferences.'
 
 
@@ -56,7 +56,7 @@ why_us:
     - title: 'Seamless Integration'
       details: 'Our house extensions are designed to seamlessly blend with the existing architecture, ensuring your home looks cohesive and elegant.'
     - title: 'Sustainable Landscaping'
-      details: 'We prioritize eco-friendly practices to create outdoor spaces that are as kind to the environment as they are stunning.'
+      details: 'We prioritize eco friendly practices to create outdoor spaces that are as kind to the environment as they are stunning.'
     - title: 'End-to-End Expertise'
       details: 'From concept to completion, we handle every aspect of your project with precision and care.'
 

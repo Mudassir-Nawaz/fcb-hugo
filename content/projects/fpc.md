@@ -16,7 +16,7 @@ A sturdy brick framework was meticulously built to match the original house’s 
 
 **Finishing Touches**
 The entrance door was upgraded to a bold and elegant navy blue, flanked by frosted glass panels, allowing natural light while maintaining privacy.
-The internal area was completed with polished marble-effect tiles, creating a clean and modern entryway that complements the home’s interior.
+The internal area was completed with polished marble effect tiles, creating a clean and modern entryway that complements the home’s interior.
 Decorative elements, such as a traditional outdoor lamp and house number plaque, add character and charm.
 
 **Landscaping**

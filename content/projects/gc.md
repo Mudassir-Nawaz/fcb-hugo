@@ -19,7 +19,7 @@ Double glass doors with sleek white frames provide a seamless transition between
 **Additional Spaces:**
 Newly converted rooms are functional and versatile, showcasing clean lines and a modern finish.
 The enhanced garage area now offers potential for various uses, from storage to workspace or additional living quarters.
-This garage conversion perfectly balances functionality with style, adding value and utility to the home. Let me know if you’d like me to refine or expand this description further!
+This garage conversion perfectly balances functionality with style, adding value and utility to the home.
 
 {{< gallery >}}
 {{< gallery-item image="images/projects/gc/gc-1.jpg" >}}
