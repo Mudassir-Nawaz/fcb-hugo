@@ -4,4 +4,4 @@ weight: 42
 labels: ['reviews']
 ---
 
-EliteStead did a fantastic job installing a gravel driveway with brick wall around the edge. Very happy and would definitely recommend.
+{{< title >}} did a fantastic job installing a gravel driveway with brick wall around the edge. Very happy and would definitely recommend.

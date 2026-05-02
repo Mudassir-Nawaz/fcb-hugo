@@ -4,4 +4,4 @@ weight: 39
 labels: ['reviews']
 ---
 
-EliteStead did a very good job rebuilding an old wall like for like. Got the job done with minimum fuss. Very pleased with work.
+{{< title >}} did a very good job rebuilding an old wall like for like. Got the job done with minimum fuss. Very pleased with work.

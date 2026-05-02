@@ -6,7 +6,7 @@ sitemap:
 hero_section:
     enable: true
     slides:
-        - heading: 'WELCOME TO EliteStead'
+        - heading: 'WELCOME TO <span class="elite-title">Elite<span>Stead</span></span>'
           image: 'images/house-street-view.jpg'
         - heading: 'Your Trusted Partner for House Extensions and Landscaping'
           image: 'images/house-inner-view.jpg'
@@ -48,7 +48,8 @@ about_section:
     enable: true
     pretitle: "About Us"
     heading: "Our Story: Transforming Homes, Shaping Landscapes"
-    details: "At EliteStead, we believe that every home has the potential to grow and evolve, just like the families that live within it. Founded on a passion for craftsmanship and a commitment to excellence, our journey began in 2017 with a simple mission: to help homeowners create spaces that reflect their dreams, needs, and lifestyles."
+    details: >-
+      At <span class="elite-title">Elite<span>stead</span></span>, we believe that every home has the potential to grow and evolve, just like the families that live within it. Founded on a passion for craftsmanship and a commitment to excellence, our journey began in 2017 with a simple mission: to help homeowners create spaces that reflect their dreams, needs, and lifestyles.
   
 why_us:
     - title: 'Personalized Service'

@@ -17,7 +17,7 @@
                                     <div class="col-lg-12">
                                         <div class="hero-slider__content">
                                             {{ with .heading }}
-                                            <h2 class="hero-slider__title">{{ .}}</h2>
+                                            <h2 class="hero-slider__title">{{ . | safeHTML }}</h2>
                                             {{ end }}
                                             {{ with .subheading }}
                                             <p class="hero-slider__text">{{ . }}</p>
@@ -233,7 +233,7 @@
                 </div>
                 <div class="col-lg-12">
                     <p class="subtitle">
-                        At EliteStead, we’re passionate about helping homeowners like you realize their property’s full potential. Explore our services and discover how we can make your house extension and landscaping dreams a reality.
+                        At <span class="elite-title">elite<span>stead</span></span>, we’re passionate about helping homeowners like you realize their property’s full potential. Explore our services and discover how we can make your house extension and landscaping dreams a reality.
                         <br><br>
                         <a href="{{ site.BaseURL }}contact/" style="color: #E11A22;">Contact us</a> today to start your journey.
                     </p>

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 /*=============================================
 =            CSS Index            =
 =============================================
@@ -8487,3 +8488,14 @@ blockquote.blockquote .author {
 }
 
 /*=====  End of contact  ======*/
+
+/*=====  custom  ======*/
+.elite-title {
+  text-transform: uppercase;
+  color: #A9291A;
+  font-family: "Cinzel", serif;
+}
+.elite-title span {
+  color: #152A4C;
+}
+/*=====  End of custom  ======*/
