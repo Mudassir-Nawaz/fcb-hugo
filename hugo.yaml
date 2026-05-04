@@ -83,9 +83,9 @@ params:
   info:
     logo: 'images/elitestead-logo.svg'
     footer_logo: 'images/elitestead-logo.svg'
-    number: '+447472801506'
+    number: '14790916'
     text: '<span class="elite-title">elite<span>stead</span></span> are committed to meeting the highest quality standards without compromising our safety culture.'
     address: '59 Anderson Avenue, Earley, Reading, England, RG6 1HD'
-    email: 'info@firstchoice-builders.co.uk' 
+    email: 'info@elitestead.co.uk' 
   form_endpoint: https://formsubmit.co/info@firstchoice-builders.co.uk
   placeholder: images/placeholder.png
