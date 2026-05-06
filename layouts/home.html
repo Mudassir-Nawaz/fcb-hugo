@@ -45,7 +45,7 @@
     <!--Feature section start-->
     {{ with .features }}
     <div class="feature-section section-space--inner--100 grey-bg">
-        <div class="container">
+        <div style="max-width: 1400px;" class="mx-auto px-3">
             <div class="col-lg-12">
                 <div class="feature-item-wrapper">
                     <div class="row">
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         {{ range . }}
-                        <div class="col-lg-4 col-md-6 col-12 section-space--bottom--30">
+                        <div class="col-lg-3 col-md-6 col-12 section-space--bottom--30">
                             <div class="feature">
                                 <div class="icon">
                                     <img width="49" height="48" src="{{ .icon | relURL }}" class="img-fluid" alt="{{ site.Title }}">

@@ -3,7 +3,6 @@ title: Comprehensive Guide to House Extensions, Loft Conversions, and General Re
 description: Home improvement projects like house extensions, loft conversions, and general refurbishments offer an excellent opportunity to increase your living space, enhance functionality, and boost the value of your property. Whether you're looking to accommodate a growing family, create a stunning new living area, or modernize your home, these upgrades can make a significant difference.
 date: 2025-02-01
 cover: 'images/projects/mopke/mopke-2.jpg'
-tags: ['dummy']
 ---
 
 ### Introduction

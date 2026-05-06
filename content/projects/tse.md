@@ -2,9 +2,11 @@
 title: Two Storey House Extension
 description: Two storey extension built from foundation stage through to brickwork, roof structure, and final finish.
 cover: 'images/projects/tsh/tsh-7.jpg'
-weight: -1
+weight: -3
 labels: ['house extensions']
 ---
+
+Two storey extension built from foundation stage through to brickwork, roof structure, and final finish.
 
 {{< gallery >}}
 {{< gallery-item image="images/projects/tsh/tsh-1.jpg" >}}

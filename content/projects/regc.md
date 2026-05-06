@@ -6,6 +6,8 @@ weight: -1
 labels: ['house extensions']
 ---
 
+A rear house extension and garage conversion project showing the build process from the original property through to foundations, construction, glazing and the finished exterior.
+
 {{< gallery >}}
 {{< gallery-item image="images/projects/regc/regc-1.jpg" >}}
 {{< gallery-item image="images/projects/regc/regc-2.jpg" >}}

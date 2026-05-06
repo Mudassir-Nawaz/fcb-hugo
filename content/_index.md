@@ -11,18 +11,18 @@ hero_section:
         - heading: 'Your Trusted Partner for House Extensions and Landscaping'
           image: 'images/house-inner-view.jpg'
         - heading: Transforming visions into reality with excellence.
-          subheading: Every project, a testament to success Excellence in every detail. Honoring tradition, empowered by innovation.
+          subheading: Every project reflects our commitment to excellence, with attention to detail and a balance of traditional craftsmanship and modern innovation.
           image: 'images/house-view.jpg'
     features:
       - icon: 'images/worker-icon.png'
         title: 'Expert Craftsmanship'
-        details: 'With 9 years of experience, our team delivers high quality house extensions that seamlessly integrate with your home’s architecture.'
+        details: 'With over 9 years of experience, our team delivers exceptional house extensions and landscaping projects, combining skilled workmanship with meticulous attention to detail to achieve a flawless finish that elevates your property.'
+      - icon: 'images/schedule-icon.png'
+        title: 'Reliable and On Time'
+        details: 'We begin every project on the agreed date, and over the past three years, every project has been completed on schedule. You can count on us to deliver our promise, every time.'
       - icon: 'images/construction-icon.png'
         title: 'House Extensions'
         details: 'We create well planned house extensions that add space, value, and comfort to your home while blending naturally with the existing property.'
-      # - icon: 'images/bulb-icon.png'
-      #   title: 'Innovative Landscaping'
-      #   details: 'From lush gardens to functional outdoor spaces, our landscaping services are designed to enhance beauty and usability.'
       - icon: 'images/support-icon.png'
         title: 'Customer Centric Approach'
         details: 'We listen, collaborate, and tailor every project to match your unique needs and preferences.'
