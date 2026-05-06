@@ -52,12 +52,12 @@ about_section:
       At <span class="elite-title">Elite<span>stead</span></span>, we believe that every home has the potential to grow and evolve, just like the families that live within it. Founded on a passion for craftsmanship and a commitment to excellence, our journey began in 2017 with a simple mission: to help homeowners create spaces that reflect their dreams, needs, and lifestyles.
   
 why_us:
-    - title: 'Personalized Service'
+    - title: 'Personalised Service'
       details: 'Your vision is at the heart of everything we do. We work closely with you to understand your unique needs and preferences.'
     - title: 'Seamless Integration'
       details: 'Our house extensions are designed to seamlessly blend with the existing architecture, ensuring your home looks cohesive and elegant.'
     - title: 'Sustainable Landscaping'
-      details: 'We prioritize eco friendly practices to create outdoor spaces that are as kind to the environment as they are stunning.'
+      details: 'We prioritise eco friendly practices to create outdoor spaces that are as kind to the environment as they are stunning.'
     - title: 'End-to-End Expertise'
       details: 'From concept to completion, we handle every aspect of your project with precision and care.'
 
