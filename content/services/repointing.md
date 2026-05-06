@@ -3,6 +3,7 @@ title: 'Repointing'
 description: Preserve and restore the structural integrity of brick or stonework by renewing damaged or weather worn mortar joints. Repointing extends the life of your walls or paving while refreshing its overall appearance.
 cover: 'images/services/repointing.jpg'
 categories: ['landscaping']
+weight: 8
 ---
 
 ### Overview

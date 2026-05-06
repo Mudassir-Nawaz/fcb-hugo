@@ -3,6 +3,7 @@ title: 'Turf'
 description: Achieve a lush, natural looking lawn quickly with our premium turf services. Ideal for families or garden enthusiasts looking to enjoy an instant transformation, our approach prioritizes soil health and long term vitality.
 cover: 'images/services/turf.jpg'
 categories: ['landscaping']
+weight: 7
 ---
 
 ### Overview

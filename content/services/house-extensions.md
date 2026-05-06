@@ -3,6 +3,7 @@ title: 'House Extensions'
 description: Unlock the full potential of your home by adding functional, stylish living areas. Our house extensions are meticulously designed to integrate harmoniously with your property’s existing structure and aesthetic.
 cover: 'images/services/house-extensions.jpg'
 categories: ['extensions']
+weight: 1
 ---
 
 ### Overview

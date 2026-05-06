@@ -22,7 +22,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                {{ $pages := .Pages.ByWeight }}
+                                {{ $pages := .Pages.ByDate.Reverse }}
                                 {{ range (.Paginate $pages 9).Pages }}
                                 {{ $link := .Permalink }}
                                 {{ $title := .Title }}

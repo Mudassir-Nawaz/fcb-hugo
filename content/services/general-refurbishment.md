@@ -3,6 +3,7 @@ title: 'General Refurbishment'
 description: Revitalize your home with our comprehensive refurbishment services, covering both interior and exterior improvements. From minor repairs to full scale remodels, we modernize and refresh spaces while respecting the original character of your property.
 cover: 'images/services/refurbishment.jpg'
 categories: ['extensions']
+weight: 2
 ---
 
 ### Overview

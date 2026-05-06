@@ -3,6 +3,7 @@ title: 'Loft Conversions'
 description: Convert an overlooked loft or attic into a cozy, functional retreat. Whether you envision a guest suite, home office, or master bedroom, our loft conversions maximize headroom, natural light, and architectural flow.
 cover: 'images/services/loft-conversion.jpg'
 categories: ['extensions']
+weight: 3
 ---
 
 ### Overview

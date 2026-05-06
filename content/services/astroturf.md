@@ -3,6 +3,7 @@ title: 'Astroturf'
 description: Enjoy a green, low maintenance lawn year round with our top of the line artificial turf. Perfect for areas with heavy foot traffic or challenging soil conditions, Astroturf delivers lasting beauty without the need for regular mowing or watering.
 cover: 'images/services/astroturf.jpg'
 categories: ['landscaping']
+weight: 6
 ---
 
 ### Overview
