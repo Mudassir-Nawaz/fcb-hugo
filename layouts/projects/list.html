@@ -15,8 +15,8 @@
                         <div class="service-grid-item">
                             <div class="service-grid-item__image">
                                 <div class="service-grid-item__image-wrapper">
-                                    <a href="{{ $link }}">
-                                        <img width="370" height="237" src='{{ default $placeholder .Page.Params.cover | relURL }}' class="img-fluid" alt="">
+                                    <a href="{{ $link }}" aria-label="{{ .Page.Title }}">
+                                        <img width="370" height="237" src='{{ default $placeholder .Page.Params.cover | relURL }}' class="img-fluid" alt="{{ .Page.Title }}">
                                     </a>
                                 </div>
                             </div>
@@ -25,7 +25,7 @@
                                     <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
                                 </h3>
                                 <p class="subtitle">{{ .Page.Description | truncate 100 }}</p>
-                                <a href="{{ .Page.Permalink }}" class="see-more-link">SEE MORE</a>
+                                <a href="{{ .Page.Permalink }}" class="see-more-link" aria-label="See more about {{ .Page.Title }}">SEE MORE</a>
                             </div>
                         </div>
                     </div>

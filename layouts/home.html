@@ -4,7 +4,7 @@
     {{ with .Params.hero_section }}
     {{ if .enable }}
     {{ with .slides }}
-    <div class="hero-alider-area">
+    <div class="hero-alider-area" role="region" aria-label="Featured slides">
         <div class="hero-slider__container-area">
             <div class="swiper-container hero-slider__container">
                 <div class="swiper-wrapper hero-slider__wrapper">
@@ -32,11 +32,11 @@
                     <!-- End of single slider item -->
                 </div>
             </div>
-            <div class="ht-swiper-button-prev ht-swiper-button-prev-13 ht-swiper-button-nav d-none d-xl-flex justify-content-center align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="10"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
+            <div class="ht-swiper-button-prev ht-swiper-button-prev-13 ht-swiper-button-nav d-none d-xl-flex justify-content-center align-items-center" role="button" aria-label="Previous slide">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="10" aria-hidden="true"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
             </div>
-            <div class="ht-swiper-button-next ht-swiper-button-next-13 ht-swiper-button-nav d-none d-xl-flex justify-content-center align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="10"><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+            <div class="ht-swiper-button-next ht-swiper-button-next-13 ht-swiper-button-nav d-none d-xl-flex justify-content-center align-items-center" role="button" aria-label="Next slide">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="10" aria-hidden="true"><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
             </div>
         </div>
     </div>
@@ -58,7 +58,7 @@
                         <div class="col-lg-3 col-md-6 col-12 section-space--bottom--30">
                             <div class="feature">
                                 <div class="icon">
-                                    <img width="49" height="48" src="{{ .icon | relURL }}" class="img-fluid" alt="{{ site.Title }}">
+                                    <img width="49" height="48" src="{{ .icon | relURL }}" class="img-fluid" alt="{{ .title }}">
                                 </div>
                                 <div class="content">
                                     <h3>{{ .title }}</h3>
@@ -190,8 +190,8 @@
                                     {{ with .Page.Params.cover }}
                                     <div class="service-grid-item__image">
                                         <div class="service-grid-item__image-wrapper">
-                                            <a href="{{ $link }}">
-                                                <img width="370" height="237" src='{{ . | relURL }}' class="img-fluid" alt="">
+                                            <a href="{{ $link }}" aria-label="{{ $.Page.Title }}">
+                                                <img width="370" height="237" src='{{ . | relURL }}' class="img-fluid" alt="{{ $.Page.Title }}">
                                             </a>
                                         </div>
                                     </div>
@@ -201,7 +201,7 @@
                                             <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
                                         </h3>
                                         <p class="subtitle">{{ .Page.Description }}</p>
-                                        <a href="{{ .Page.Permalink }}" class="see-more-link">SEE MORE</a>
+                                        <a href="{{ .Page.Permalink }}" class="see-more-link" aria-label="See more about {{ .Page.Title }}">SEE MORE</a>
                                     </div>
                                 </div>
                             </div>
@@ -317,7 +317,7 @@
                                                     <h3 class="count">{{ add $i 1 }}</h3>
                                                     <h2 class="title">{{ $title }}</h2>
                                                     <p class="desc">{{ .Description }}</p>
-                                                    <a href="{{ .Permalink }}" class="see-more-link see-more-link--color">VIEW MORE</a>
+                                                    <a href="{{ .Permalink }}" class="see-more-link see-more-link--color" aria-label="View project: {{ $title }}">VIEW MORE</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -325,11 +325,11 @@
                                     {{ end }}
                                 </div>
                             </div>
-                            <div class="ht-swiper-button-prev ht-swiper-button-prev-16 ht-swiper-button-nav">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="10"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
+                            <div class="ht-swiper-button-prev ht-swiper-button-prev-16 ht-swiper-button-nav" role="button" aria-label="Previous project">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="10" aria-hidden="true"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>
                             </div>
-                            <div class="ht-swiper-button-next ht-swiper-button-next-16 ht-swiper-button-nav">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="10"><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                            <div class="ht-swiper-button-next ht-swiper-button-next-16 ht-swiper-button-nav" role="button" aria-label="Next project">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="10" aria-hidden="true"><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
                             </div>
                         </div>
                     </div>
