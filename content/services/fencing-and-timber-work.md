@@ -2,7 +2,7 @@
 title: 'Fencing and Timber Work'
 description: Enhance privacy, security, and architectural charm with our fencing and timber installations. From traditional wooden panels to modern composite designs, we craft solutions to suit your property’s aesthetic and functional needs.
 cover: 'images/services/fencing.jpg'
-categories: ['landscaping']
+services: ['landscaping']
 weight: 4
 ---
 

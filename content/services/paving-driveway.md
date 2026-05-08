@@ -2,7 +2,7 @@
 title: 'Paving / Driveway'
 description: Make a great first impression with a durable, visually appealing driveway or paving layout. Whether you prefer a modern resin bound surface or a classic block paved design, our solutions are crafted for both reliability and style.
 cover: 'images/services/paving-driveway.jpg'
-categories: ['landscaping']
+services: ['landscaping']
 weight: 2
 ---
 

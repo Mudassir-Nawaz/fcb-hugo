@@ -2,7 +2,7 @@
 title: 'Decking'
 description: Create a versatile outdoor living extension with a custom built deck. Ideal for dining, socializing, or simply enjoying fresh air, our decks merge comfort with aesthetic appeal and safety.
 cover: 'images/services/decking.jpg'
-categories: ['landscaping']
+services: ['landscaping']
 weight: 5
 ---
 

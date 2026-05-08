@@ -2,7 +2,7 @@
 title: 'Patio'
 description: Create an inviting outdoor gathering place that seamlessly extends your home’s living area. Our patios are designed for comfort, aesthetics, and long lasting performance under a variety of weather conditions.
 cover: 'images/services/patio.jpg'
-categories: ['landscaping']
+services: ['landscaping']
 weight: 1
 ---
 

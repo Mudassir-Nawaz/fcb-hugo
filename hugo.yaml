@@ -6,7 +6,8 @@ enableRobotsTXT: true
 taxonomies:
   category: categories
   tag: tags
-  label: labels
+  service: services
+  project: projects
 
 pagination:
   pagerSize: 6
@@ -23,12 +24,12 @@ menus:
       url: '/services/'
       weight: 30
     - name: 'Extensions'
-      url: '/categories/extensions/'
+      url: '/services/extensions/'
       weight: 10
       identifier: services-extension
       parent: Services
     - name: 'Landscaping'
-      url: '/categories/landscaping/'
+      url: '/services/landscaping/'
       weight: 20
       identifier: services-landscaping
       parent: Services
@@ -36,17 +37,17 @@ menus:
       url: '/projects/'
       weight: 40
     - name: 'Extensions'
-      url: '/labels/house-extensions/'
+      url: '/projects/house-extensions/'
       weight: 10
       identifier: projects-extension
       parent: Projects
     - name: 'Landscaping'
-      url: '/labels/landscaping/'
+      url: '/projects/landscaping/'
       weight: 20
       identifier: projects-landscaping
       parent: Projects
     - name: 'Reviews'
-      url: '/labels/reviews/'
+      url: '/reviews/'
       weight: 30
       identifier: projects-review
       parent: Projects
@@ -76,7 +77,7 @@ menus:
       url: '/projects/'
       weight: 30
     - name: 'Reviews'
-      url: '/labels/reviews/'
+      url: '/reviews/'
       weight: 40
 
 params:

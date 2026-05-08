@@ -2,7 +2,7 @@
 title: 'Garden Wall / Retaining Wall'
 description: Add both structure and style to your garden with robust retaining or decorative walls. These installations prevent soil erosion, create visual boundaries, and can serve as attractive focal points in your outdoor design.
 cover: 'images/services/garden-wall-and-retaining-wall.jpg'
-categories: ['landscaping']
+services: ['landscaping']
 weight: 3
 ---
 

@@ -106,7 +106,7 @@
     <!--  video cta area -->
     {{ with .Params.about_section }}
     {{ if .enable }}
-    <div class="video-cta-area section-space--inner--120" id="about_section" style="scroll-margin-top: 200px;">
+    <div class="video-cta-area section-space--inner--120" id="about_section" style="scroll-margin-top: 300px;">
         <div class="container">
             <div class="row align-items-center section-space--bottom--50">
                 <div class="col-lg-6 col-md-12">
@@ -183,7 +183,7 @@
                 <div class="col-lg-12">
                     <div class="service-item-wrapper">
                         <div class="row">
-                            {{ range .Site.Taxonomies.categories }}
+                            {{ range .Site.Taxonomies.services }}
                             {{ $link := .Page.Permalink }}
                             <div class="col-lg-4 col-md-6 col-12 section-space--bottom--30">
                                 <div class="service-grid-item">
@@ -206,9 +206,6 @@
                                 </div>
                             </div>
                             {{ end }}
-                            <div class="d-flex justify-content-center align-items-center section-space--top--30">
-                                <a href="/services/" class="ht-btn ht-btn--round">View All</a>
-                            </div>
                         </div>
                     </div>
                 </div>

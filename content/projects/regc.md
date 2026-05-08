@@ -3,7 +3,7 @@ title: Rear Extension and Garage Conversion
 description: A rear house extension and garage conversion project showing the build process from the original property through to foundations, construction, glazing and the finished exterior.
 cover: 'images/projects/regc/regc-10.jpg'
 weight: -1
-labels: ['house extensions']
+projects: ['house extensions']
 ---
 
 A rear house extension and garage conversion project showing the build process from the original property through to foundations, construction, glazing and the finished exterior.
